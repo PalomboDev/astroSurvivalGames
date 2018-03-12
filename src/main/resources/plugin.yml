@@ -1,0 +1,11 @@
+name: SGv2
+version: ${project.version}
+main: me.palombo.survivalgamesv2.SG
+authors: [Palombo, CodeNameFlip]
+description: The SurvivalGames rewrite
+
+commands:
+    vote:
+        usage: /<command> <map>
+        description: Vote for a map.
+        aliases: [v]
